@@ -1,18 +1,19 @@
 function clock(){
   var d = new Date();
 
-  var hh = d.getHours();
-  var mm = d.getMinutes();
-  var ss = d.getSeconds();
+  var h = d.getHours();
+  var m = d.getMinutes();
+  var s = d.getSeconds();
 
-  hh = hh < 10 ? "0" + hh : hh;
-  mm = mm < 10 ? "0" + mm : mm;
-  ss = ss < 10 ? "0" + ss : ss;
+  h = h < 10 ? "0" + h : h;
+  m = m < 10 ? "0" + m : m;
+  s = s < 10 ? "0" + s : s;
 
-  nowtime = hh + ":" + mm + ":" + ss;
+  nowtime = h + ":" + m + ":" + s;
   var t = document.getElementById('time');
   t.style.fontSize = "50pt";
   t.style.color = "red";
+  t.style.textAlign = "center";
   t.innerHTML = nowtime;
 }
 

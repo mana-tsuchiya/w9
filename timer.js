@@ -12,6 +12,10 @@ function clock(){
   nowtime = h + ":" + m + ":" + s;
   var t = document.getElementById('time');
   
+  t.style.ontSize = "50pt";
+  color: #d669aa
+  t.innerHTML = nowtime;
+  
 }
 
 setInterval('clock()', 1000);

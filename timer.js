@@ -16,6 +16,5 @@ function clock(){
   t.innerHTML = nowtime;
 }
 
-function start(){
-  setInterval(clock, 1000);
-}
+setInterval('clock()', 1000);
+

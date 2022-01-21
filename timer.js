@@ -12,11 +12,9 @@ function clock(){
   nowtime = h + ":" + m + ":" + s;
   var t = document.getElementById('time');
   
-  t.style.ontSize = "200pt";
-  //t.style.color = "red";
-  t.style.textAlign = "center";
-  t.innerHTML = nowtime;
-  
+  //t.style.ontSize = "200pt";
+  //t.style.textAlign = "center";
+  //t.innerHTML = nowtime;
 }
 
 setInterval('clock()', 1000);

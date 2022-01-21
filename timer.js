@@ -12,7 +12,7 @@ function clock(){
   nowtime = hh + ":" + mm + ":" + ss;
   var t = document.getElementById('time');
   t.style.fontSize = "100pt";
-  t.style.color = #926bb8;
+  t.style.color = "blue";
   t.innerHTML = nowtime;
 }
 

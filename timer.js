@@ -1,16 +1,18 @@
 function clock(){
-  let d = new Date();
+  var d = new Date();
 
-  let hh = d.getHours();
-  let mm = d.getMinutes();
-  let ss = d.getSeconds();
+  var hh = d.getHours();
+  var mm = d.getMinutes();
+  var ss = d.getSeconds();
 
   hh = hh < 10 ? "0" + hh : hh;
   mm = mm < 10 ? "0" + mm : mm;
   ss = ss < 10 ? "0" + ss : ss;
 
-  let time = `${hh}:${mm}:${ss}`;
-  document.querySelector(".time").innerText = time;
+  nowtime = hh + ":" + mm + ":" + ss;
+  var t = document.getElementById('time');
+  t.style.fontSize = "100pt";
+  t.style.color = #926bb8;
 }
 
 function start(){

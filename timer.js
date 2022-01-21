@@ -11,8 +11,8 @@ function clock(){
 
   nowtime = hh + ":" + mm + ":" + ss;
   var t = document.getElementById('time');
-  t.style.fontSize = "100pt";
-  t.style.color = "blue";
+  t.style.fontSize = "50pt";
+  t.style.color = "red";
   t.innerHTML = nowtime;
 }
 

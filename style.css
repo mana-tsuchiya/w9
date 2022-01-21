@@ -1,7 +1,5 @@
-/* Google Fonts 読み込み */
 @import url("https://fonts.googleapis.com/css2?family=DotGothic16&display=swap");
 
-/* 全体を囲うコンテナー */
 .container {
   width: 100%;
   height: 100vh;
@@ -12,26 +10,17 @@
   text-align: center;
 }
 
-/* 時計の共通スタイル */
-.clock {
-  font-family: 'Share Tech Mono', monospace;
-  color: #daf6ff;
-  text-shadow: 0 0 20px #0aafe6;
+.time {
+  font-family: "DotGothic16";
+  color: #d669aa;
+  text-shadow: 0 0 20px #f7beef;
   line-height: 1.2;
+  font-size: 100px;
   text-align: center;
 }
 
-/* 時間のスタイル */
-.clock-time {
-  font-size: 100px;
-}
-
-/* 文字サイズ調整 */
 @media screen and (max-width: 500px) {
-  .clock-date {
-    font-size: 5vw;
-  }
-  .clock-time {
+  .time {
     font-size: 20vw;
   }
 }

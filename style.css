@@ -12,3 +12,9 @@
   font-family: "DotGothic16";
   color: #a31c5d;
 }
+
+@media screen and (max-width: 500px) {
+  .container {
+    font-size: 20vw;
+  }
+}

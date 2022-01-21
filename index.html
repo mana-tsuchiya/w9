@@ -1,11 +1,21 @@
+
 <!DOCTYPE html>
-<html>
+<html lang="ja">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Digital Clock</title>
-  <script src="js/timer.js"></script>
+  <!-- CSSファイル読み込み -->
+  <link rel="stylesheet" href="style.css">
 </head>
-<body onload = "start()">
-<p id="result"></p>
+<body>
+  <div class="container">
+    <div class="clock">
+      <p class="clock-date"></p>
+      <p class="clock-time"></p>
+    </div>
+  </div>
+  <!-- JavaScriptファイル読み込み -->
+  <script src="clock.js"></script>
 </body>
 </html>

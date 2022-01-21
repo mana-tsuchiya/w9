@@ -13,6 +13,7 @@ function clock(){
   var t = document.getElementById('time');
   t.style.fontSize = "100pt";
   t.style.color = #926bb8;
+  t.innerHTML = nowtime;
 }
 
 function start(){

@@ -1,5 +1,5 @@
 /* Google Fonts 読み込み */
-@import url("https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DotGothic16&display=swap");
 
 /* 全体を囲うコンテナー */
 .container {
@@ -19,11 +19,6 @@
   text-shadow: 0 0 20px #0aafe6;
   line-height: 1.2;
   text-align: center;
-}
-
-/* 日付のスタイル */
-.clock-date {
-  font-size: 25px;
 }
 
 /* 時間のスタイル */

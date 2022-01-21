@@ -11,10 +11,7 @@ function clock(){
 
   nowtime = h + ":" + m + ":" + s;
   var t = document.getElementById('time');
-  t.style.fontSize = "50pt";
-  t.style.color = "red";
-  t.style.textAlign = "center";
-  t.innerHTML = nowtime;
+  
 }
 
 setInterval('clock()', 1000);

@@ -14,5 +14,5 @@ function clock(){
 }
 
 function start(){
-  window.setInterval(clock, 1000);
+  setInterval(clock, 1000);
 }

@@ -14,6 +14,7 @@ function clock(){
   
   t.style.ontSize = "50pt";
   color: #d669aa
+  t.style.textAlign = "center";
   t.innerHTML = nowtime;
   
 }

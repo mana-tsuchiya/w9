@@ -3,14 +3,14 @@
 .container {
   width: 100%;
   height: 100vh;
-  background-color: #f7beef;
+  background-color: #fbfeda;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
   
   font-family: "DotGothic16";
-  color: #d669aa;
+  color: #a31c5d;
   font-size: 100px;
   text-align: center;
 }

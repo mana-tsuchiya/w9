@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=DotGothic16&display=swap");
+
 
 .container {
   width: 100%;
@@ -8,12 +8,4 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-}
-
-.time {
-  font-family: "DotGothic16";
-  color: #d669aa;
-  line-height: 1.2;
-  text-align: center;
-  font-size: 50px;
 }

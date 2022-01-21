@@ -14,7 +14,7 @@ function clock(){
   
   //t.style.ontSize = "200pt";
   //t.style.textAlign = "center";
-  //t.innerHTML = nowtime;
+  t.innerHTML = nowtime;
 }
 
 setInterval('clock()', 1000);

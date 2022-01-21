@@ -13,7 +13,7 @@ function clock(){
   var t = document.getElementById('time');
   
   t.style.ontSize = "50pt";
-  color: #d669aa
+  t.style.color: "red";
   t.style.textAlign = "center";
   t.innerHTML = nowtime;
   

@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=DotGothic16&display=swap");
 
 .container {
+  width: 100%;
+  height: 100vh;
   background-color: #fbfeda;
   /*display: flex;*/
   align-items: center;
@@ -12,8 +14,8 @@
   font-size: 30vh;
 }
 
-/*@media screen and (max-width: 500px) {
+@media screen and (max-width: 500px) {
   .container {
     font-size: 20vw;
   }
-}*/
+}

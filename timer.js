@@ -12,7 +12,6 @@ function clock(){
   nowtime = h + ":" + m + ":" + s;
   var t = document.getElementById('time');
   
-  //t.style.ontSize = "100px";
   t.style.textAlign = "center";
   t.innerHTML = nowtime;
 }
